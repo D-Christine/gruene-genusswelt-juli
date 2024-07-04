@@ -1,0 +1,28 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary: #116156;
+    --secondary: #EDAA05;
+    --base: #FFF3E3;
+    --light: #E0E0E0;
+    --dark: #424242;
+    --functional-text: 'Hind Madurai', Arial, Helvetica, sans-serif;
+    --body-text: 'Hind Madurai', Arial, Helvetica, sans-serif;
+    --display-text: 'Libre Baskerville', 'Times New Roman', serif;
+    --subheadings: 'Lora', 'Times New Roman', serif;
+    /* regular */
+    --fw-400: 400;
+    /* bold */
+    --fw-700: 700;
+    /* kursiv */
+    --fs-italic: italic;
+}
